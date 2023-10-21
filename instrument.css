@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: linear-gradient(to left,orange,magenta);
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 90px;
+    font-weight: bold;
+    padding: 0px 50px 0px 50px;
+    font-family: 'Poppins';
+}
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.nav-below{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+   
+    width: 50%;
+    height: 400px;
+    font-family: 'Hind';
+    margin-top: 100px;
+    margin-left: 20px;
+    
+}
+.nav-below p:nth-child(1){
+    font-size: 5em;
+    font-weight: 900;
+}
+.nav-below p:nth-child(2){
+    width: 500px;
+    font-size: 1.09em;
+    height: 100px;
+}
+.nav-below button,.grid-below-button{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1.01em;
+    transition: all;
+    transition-duration: 0.9s;
+}
+.nav-below button:hover{
+    cursor: pointer;
+    transform: translateX(15px);
+}
+.nav-below button:active{
+    background-color: lightcoral;
+}
+.nav-below-img{
+    height: 500px;
+    width: 80%;
+    margin: 0px 20px 0px 20px;
+}
+.nav-below-img-div{
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+.img-text{
+    font-family: 'Poppins';
+    font-size: 2.5em;
+    font-weight: 600;
+    width: 45%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(3,fr);
+    gap: 180px;
+    color: white;
+    height: auto;
+    margin-bottom: 20px;
+}
+.grid-container div img,.grid-container-two div img{
+    height: 650px;
+    width: 650px;
+}
+.grid-elements{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+    height: 800px;
+}
+.para-button{
+    width: 30%;
+    line-height: 1.55;
+    font-size: 1.5em;
+    font-family: 'Poppins';
+}
+.grid-elements button{
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    transition: all;
+    transition-duration: 0.8s;
+    margin-top: 15px;
+}
+.grid-elements button:hover{
+    cursor: pointer;
+    transform: translateX(15px);
+}
+.grid-below{
+    padding: 20px;
+    text-align: center;
+    
+}
+.grid-below button{
+    
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.grid-container-two{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    
+    grid-column: 20px;
+    margin-top: 150px;
+}
+.grid-container-two div img{
+    height: 500px;
+    width: 500px;
+}
+.grid-container-two-element{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 650px;
+}
+.grid-container-two-element p{
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    width: 70%;
+}
+.logo{
+    margin: auto;
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 750px;
+}
+.footer-top{
+    margin-top: 400px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 3em;
+    font-weight:900;
+}
+.footer-top button{
+    padding: 12px 24px;
+    border: none;
+    font-family: 'Poppins';
+    background-color: #eee;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+li{
+    list-style: none;
+    line-height: 4;
+    font-family: 'Poppins';
+}
+footer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 500px;
+}
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    width: 500px;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 500px;
+}
+.footer-right img{
+    height: 35px;
+    width: 35px;
+}
+.footer-right button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+}
+.grid-below button{
+    border: none;
+    padding: 12px 24px;
+}
