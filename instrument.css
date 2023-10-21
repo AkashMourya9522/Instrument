@@ -223,3 +223,22 @@ footer{
     border: none;
     padding: 12px 24px;
 }
+@media  (max-width:1000px) {
+    .grid-container div img,.grid-container-two div img{
+        max-height: 400px;
+        max-width: 400px;
+    }
+    .grid-container div{
+        font-size: 1em;
+    }
+    .grid-container-two{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .logo{
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
